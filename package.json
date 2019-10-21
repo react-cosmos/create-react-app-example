@@ -13,6 +13,6 @@
     "react-scripts": "3.2.0"
   },
   "devDependencies": {
-    "react-cosmos": "^5.0.0-beta.10"
+    "react-cosmos": "^5.0.0-beta.14"
   }
 }
