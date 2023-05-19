@@ -1,4 +1,11 @@
 {
+  "globalImports": ["./src/index.css"],
+  "lazy": true,
+  "plugins": [
+    "react-cosmos-plugin-open-fixture",
+    "react-cosmos-plugin-webpack"
+  ],
+  "staticPath": "public",
   "watchDirs": ["src"],
   "webpack": {
     "configPath": "react-scripts/config/webpack.config"
