@@ -1,4 +1,5 @@
 {
+  "globalImports": ["./src/index.css"],
   "plugins": ["react-cosmos-plugin-webpack"],
   "staticPath": "public",
   "watchDirs": ["src"],
