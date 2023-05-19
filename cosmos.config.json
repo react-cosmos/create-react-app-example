@@ -1,6 +1,10 @@
 {
   "globalImports": ["./src/index.css"],
-  "plugins": ["react-cosmos-plugin-webpack"],
+  "lazy": true,
+  "plugins": [
+    "react-cosmos-plugin-open-fixture",
+    "react-cosmos-plugin-webpack"
+  ],
   "staticPath": "public",
   "watchDirs": ["src"],
   "webpack": {
